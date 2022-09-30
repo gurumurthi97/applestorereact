@@ -1,0 +1,154 @@
+.divouter {
+  background-color: #ffffff;
+  width: 1300px;
+  position: absolute;
+  padding-left: 15px;
+  z-index: 1;
+}
+.Scroll {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.header {
+  /* position: absolute; */
+  width: 172px;
+  height: 32px;
+  left: 59px;
+  top: 748px;
+
+  /* font-family: "Montserrat"; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  /* identical to box height, or 89% */
+  background-color: white;
+  letter-spacing: 0.1px;
+
+  color: #000000;
+}
+.rectangle {
+  position: absolute;
+  width: 366px;
+  height: 472px;
+  left: 69px;
+  /* top: 820px; */
+  gap: 20px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.phoneName {
+  position: absolute;
+  width: 253px;
+  height: 32px;
+  left: 15px;
+  /* top: 1139px; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.1px;
+
+  color: #000000;
+}
+.star1 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 16px;
+  top: 373px;
+  /* background: #ffac4b; */
+}
+.star2 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 36px;
+  top: 373px;
+  /* background: #ffac4b; */
+}
+.star3 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 56px;
+  top: 373px;
+  /* background: #ffac4b; */
+}
+.star4 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 76px;
+  top: 373px;
+  /* background: #ffac4b; */
+}
+.star5 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 96px;
+  top: 373px;
+  /* background: #ffac4b; */
+}
+.strickRate {
+  position: absolute;
+  width: 60px;
+  height: 32px;
+  left: 200px;
+  top: 363px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-decoration-line: line-through;
+  color: #444444;
+}
+.actuallRate {
+  position: absolute;
+  width: 92px;
+  height: 32px;
+  left: 273px;
+  top: 363px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.1px;
+
+  color: #000000;
+}
+.btn {
+  position: absolute;
+  width: 328px;
+  height: 43px;
+  left: 87px;
+  top: 520px;
+  border: 0px solid #23a6f0;
+  background: #23a6f0;
+  border-radius: 10px;
+}
+.Cart {
+  width: 145px;
+  height: 32px;
+  /* left: 180px;
+  top: 1241px; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
