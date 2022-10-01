@@ -64,7 +64,7 @@ const Header = () => (
           alignItems: "center",
           padding: "15px 40px",
           gap: "10px",
-
+          border: "0px solid #23A6F0",
           width: "221px",
           height: "62px",
 
@@ -161,7 +161,7 @@ const Header = () => (
           height: "699px",
           // left: "calc(50% - 696px/2 - 0.5px)",
 
-          top: "15px",
+          top: "-5px",
         }}
       />
     </div>

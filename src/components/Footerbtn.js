@@ -76,6 +76,11 @@ function FooterContent() {
           <li>Lorem impsum dolor amit</li>
         </ul>
       </div>
+      <div>
+        <p className="CopyRight">
+          Made With <span className="Heart">❤</span> at AccioJob
+        </p>
+      </div>
     </div>
   );
 }

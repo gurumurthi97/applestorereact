@@ -77,13 +77,15 @@
 .Heading {
   margin-block-start: 0px;
   margin-block-end: 0px;
-  width: 700;
+  width: 110px;
+  height: 32px;
+  margin-left: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
   font-size: "24px";
   color: #252b42;
-  letter-spacing: "0.1px";
+  letter-spacing: 0.1px;
   height: 32px;
 }
 .footer-content {
@@ -117,8 +119,7 @@
   font-size: 14px;
   letter-spacing: 0.2px;
 }
-#inputGroupPrepend {
-}
+
 .footer-button {
   border: none;
   width: 117px;

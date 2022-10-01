@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar() {
+function Navbar(props) {
   return (
     <div
       style={{
@@ -142,7 +142,8 @@ function Navbar() {
               paddingLeft: "1px",
             }}
           >
-            1
+            {props.add}
+            {/* {props.cart} */}
           </span>
         </li>
         <li>

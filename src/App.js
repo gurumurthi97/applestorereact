@@ -7,6 +7,7 @@ import Product from "./components/Product";
 import Footer from "./components/Footer";
 import Footerbtn from "./components/Footerbtn";
 function App() {
+  const [add, setAdd] = useState(0);
   const [product, setProduct] = useState(0);
   const [data, setData] = useState({});
   let productDetails = [];
@@ -35,12 +36,15 @@ function App() {
         productImage={item.productImage}
         setProduct={setProduct}
         product={product}
+        // cart={cart}
+        add={add}
+        setAdd={setAdd}
       />
     ));
   }
   return (
     <div>
-      <Navbar />
+      <Navbar add={add} />
       <Header />
       <ProductName />
       <div className="cardScroller">{allProductDetails}</div>
