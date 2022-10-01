@@ -1,7 +1,25 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Footerbtn.css";
 
 function FooterContent() {
+  const [email, setEmail] = React.useState("");
+  function handleChange(e) {
+    setEmail(e.target.value);
+  }
+
+  function handleSubmit() {
+    fetch(
+      "https://accio-emailex-default-rtdb.asia-southeast1.firebasedatabase.app//messages.json",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: email,
+        }),
+      }
+    );
+  }
+
   return (
     <div className="Footer-Heddings-And-Names">
       <div className="footer-content">
@@ -37,9 +55,18 @@ function FooterContent() {
           <li>
             <li className="first-list">Get In Touch</li>
             <li className="last-footers">
-              <input type="text" className="inputs" placeholder="Your Email" />
+              <input
+                type="text"
+                className="inputs"
+                placeholder="Your Email"
+                onChange={handleChange}
+              />
               <span class="input-group-text" id="inputGroupPrepend">
-                <button type="button" className="footer-button">
+                <button
+                  type="button"
+                  className="footer-button"
+                  onClick={handleSubmit}
+                >
                   Subscribe
                 </button>
               </span>
